@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
+*{
+    max-width: 100%;
+    max-height: 300px;
+    /*overflow: hidden;*/
+    padding: 0%;
+    margin: 0%;
+    position: relative;
+}
+
+
+
+nav{
+    text-align: center;
+   width: 100%;
+    display: block;
+    height: 50px;
+    padding-top: 30px;  
+    box-sizing: content-box;
+}
+
+
+a:first-child{
+    background-color:#FF764E;
+}
+
+a:last-child{
+    background-color: #FFCD69;
+}
+a:nth-child(2){
+    background-color:#5ED3EB ;
+}
+
+nav a{
+
+    margin-right: 12%;
+    text-decoration: none;
+    padding: 12px 3px;
+    border-radius: 15px;
+         
+    
+}
+
+
+a{
+    font-size: 20px;   
+}
+
+
+h1{
+     
+font-family: 'Chelsea Market', cursive; 
+margin-left: 600px;
+margin-top: -200px;
+padding-top: 30px;
+font-size: 50px;
+height: 60px;
+width: 40%;
+text-align: center;
+
+
+}
+
+.park p{
+    font-family: 'Roboto Mono', monospace;
+    margin-left: 600px;
+    margin-top: 10px;
+    text-align: center;
+    width: 40%;
+    height: 80px;
+    font-weight: bold;   
+   
+}
+
+ .round {
+        border-radius: 50%;
+        height: 300%;
+        width: 150px;
+        margin-left: 400px;
+        margin-top: 40px;
+        
+      }
+
+
+
+section{
+    
+    background-color:#DDB9A3;
+    margin-top: 80px;
+    margin-left: 20%;
+    height: 100px;
+    width: 60%;
+    padding: 12px 3px;
+}
+
+section p{
+    color: white;
+    text-align: center;
+    word-spacing: 5px;
+
+}
+
+footer{
+   
+    background-color:#F9E7DC ;
+    height: 100px;
+
+    width: 100%;
+}
+
+.fire img{
+    border-radius: 50%;
+    height: 80%;
+    width: 80px;
+    margin-left: 800px;
+    margin-top: 10px;
+   
+}
+
+.fire p{
+
+    height: 40%;
+    width: 200px;
+    margin-left: 750px;
+    margin-top: 10px;
+    /*border: solid 1px rgb(163, 11, 11);*/
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;  
+}
+
+.entrance img{
+    border-radius: 50%;
+    height: 80%;
+    width: 80px;
+    margin-left: 800px;
+    margin-top: 40px;
+   
+}
+
+.entrance p{
+    height: 10%;
+    width: 200px;
+    margin-left: 750px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;  
+}
+
+.footimage{
+    height: 150px;
+    width: 100%;
+}
